@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "startDev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaudhuree/real-time-blogging-app-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  },
+  "bugs": {
+    "url": "https://github.com/chaudhuree/real-time-blogging-app-server/issues"
+  },
+  "homepage": "https://github.com/chaudhuree/real-time-blogging-app-server#readme"
+}
